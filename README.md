@@ -13,8 +13,10 @@ step 8: Merge your pull request
 Stop 9 don't delete your branch
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                        DEVELOPED BY:
+                        
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DEVELOPED BY:
 
 
 Ivan Rodriguez - Joined Dec 23 2021
