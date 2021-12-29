@@ -40,3 +40,11 @@ Jeremy Pena - Dec 24 2021
 Berlin -- Dec 24 2021
 
 Tierra Z. 12/24/2021
+
+Tiffany Clark Dec 26 2021
+
+Davis Hilton - Dec 28, 2021
+
+Angela Farnell - Dec 29, 2021
+
+Amanda Smithlin - Dec 29, 2021
