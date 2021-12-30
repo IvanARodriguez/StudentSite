@@ -107,7 +107,7 @@ a{
 .steve-btn{
     background-color: rgb(14, 108, 148);
     font-size: 1em;
-    color: white;
+    color: rgba(255, 255, 255, 0.884);
     border: none;
     padding: 1em 4em;
     cursor: pointer;
@@ -118,4 +118,48 @@ a{
     background-color: rgb(11, 57, 77);
     transform: scale(1.2);
 }
-/* this is where 2nd Steve style card ends*/
+/* this is where Steve style card ends*/
+
+/* this is where Madona style card starts*/
+.madona-box{
+    margin: 2em 0;
+    background-color: rgb(249, 207, 233);
+    border-radius: 3em;
+    padding: 2em;
+}
+.madona-box .img-box{
+    max-height: 500px;
+    height: 20em;
+    background-image: url("/images/xps-bXfQLglc81U-unsplash.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.3em;
+}
+.madona-box img{
+    width: 100%;
+}
+.madona-box p{
+    margin: .8em 0;
+    color: rgb(96, 96, 96);
+    font-family: 'Oooh Baby', cursive;
+    font-size: 2em;
+}
+
+.madona-box h1{
+    margin: .8em 0;
+    color: rgb(73, 80, 78);
+}
+.madona-btn{
+    background-color: rgb(99, 14, 148);
+    font-size: 1em;
+    color: white;
+    border: none;
+    padding: 1em 4em;
+    cursor: pointer;
+    border-radius: 3em;
+}
+.madona-btn:hover{
+    background-color: rgb(77, 11, 74);
+}
+/* this is where Madona style card ends*/
