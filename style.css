@@ -109,3 +109,48 @@ a{
     background-color: rgb(11, 57, 77);
 }
 /* this is where Steve style card ends*/
+
+
+/* this is where Tiffany Style card starts*/
+.tiffany-box{
+    margin: 2em 0;
+    background-color: rgb(207, 237, 249);
+    border-radius: 3em;
+    padding: 2em;
+}
+.tiffany-box .img-box{
+    max-height: 500px;
+    height: 20em;
+    background-image: url(images\blue.jpg);
+    background-position:center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.3em
+}
+.tiffany-box img{
+    width: 100%;
+}
+.tiffany-box p{
+    margin: .8em 0;
+    color: rgb(96, 96, 96);
+    font-family: 'Oooh Baby', cursive;
+    font-size: 2em;
+}
+
+.tiffany-box h1{
+    margin: .8em 0;
+    color: rgb(73, 80, 78);
+}
+.tiffany-btn{
+    background-color: rgb(14, 108, 148);
+    font-size: 1em;
+    color: white;
+    border: none;
+    padding: 1em 4em;
+    cursor: pointer;
+    border-radius: 3em;
+}
+.tiffany-btn:hover{
+    background-color: rgb(11, 57, 77);
+}
+/* this is where Tiffany style card ends*/
