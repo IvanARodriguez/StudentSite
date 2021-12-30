@@ -13,9 +13,26 @@ a{
     color: inherit;
     text-decoration: none;
 }
-
+header{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    font-size: 1.5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 0;
+    color: rgb(140, 48, 210);
+}
+header .gen-logo{
+    max-height: 150px;
+    border-radius: 2em;
+    
+}
 .container{
-    max-width: 600px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    max-width: 1200px;
     margin: 10px auto;
 }
 /* ================================ */
@@ -24,28 +41,38 @@ a{
 
 /* this is where Ivan style card starts*/
 .ivan-box{
+    max-width: 400px;
     margin: 2em 0;
     background-color: rgb(207, 237, 249);
     border-radius: 3em;
     padding: 2em;
 }
 .ivan-box .img-box{
-    max-height: 500px;
-    height: 20em;
-    background-image: url("/images/xps-6uneKLGrJPs-unsplash.jpeg");
+    max-height: 400px;
+    height: 15em;
+    background-image: url("images/xps-6uneKLGrJPs-unsplash.jpeg");
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1.3em;
+    overflow: hidden;
 }
 .ivan-box img{
+    max-height: 20rem;
+    height: 100%;
     width: 100%;
+    object-position: bottom;
+    object-fit: cover;
+    transition: all 0.2s ease-out;
+}
+.ivan-box img:hover{
+    transform: scale(1.2);
 }
 .ivan-box p{
     margin: .8em 0;
     color: rgb(96, 96, 96);
     font-family: 'Oooh Baby', cursive;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 .ivan-box h1{
@@ -68,6 +95,7 @@ a{
 
 /* this is where Steve style card starts*/
 .steve-box{
+    max-width: 400px;
     margin: 2em 0;
     background-color: rgb(207, 237, 249);
     border-radius: 3em;
@@ -97,7 +125,7 @@ a{
     margin: .8em 0;
     color: rgb(96, 96, 96);
     font-family: 'Oooh Baby', cursive;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 .steve-box h1{
@@ -122,6 +150,7 @@ a{
 
 /* this is where Madona style card starts*/
 .madona-box{
+    max-width: 400px;
     margin: 2em 0;
     background-color: rgb(249, 207, 233);
     border-radius: 3em;
@@ -130,7 +159,7 @@ a{
 .madona-box .img-box{
     max-height: 500px;
     height: 20em;
-    background-image: url("/images/xps-bXfQLglc81U-unsplash.jpg");
+    background-image: url("images/xps-bXfQLglc81U-unsplash.jpg");
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -143,7 +172,7 @@ a{
     margin: .8em 0;
     color: rgb(96, 96, 96);
     font-family: 'Oooh Baby', cursive;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 
 .madona-box h1{
