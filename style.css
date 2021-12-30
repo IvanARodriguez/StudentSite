@@ -64,3 +64,47 @@ a{
     background-color: rgb(11, 57, 77);
 }
 /* this is where Ivan style card ends*/
+
+/* this is where Angela style card starts*/
+.angela-box{
+    margin: 2em 0;
+    background-color: rgb(71, 14, 4);
+    border-radius: 3em;
+    padding: 2em;
+}
+.angela-box .img-box{
+    max-height: 500px;
+    height: 20em;
+    background-image: url("/images/mary-skrynnikova-uluH5a0sRdw-unsplash.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.3em;
+}
+.angela-box img{
+    width: 100%;
+}
+.angela-box p{
+    margin: .8em 0;
+    color: rgb(247, 243, 241);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+
+.angela-box h1{
+    margin: .8em 0;
+    color: rgb(235, 229, 227);
+}
+.angela-btn{
+    background-color: rgb(87, 84, 84);
+    font-size: 1em;
+    color: white;
+    border: none;
+    padding: 1em 4em;
+    cursor: pointer;
+    border-radius: 3em;
+}
+.angela-btn:hover{
+    background-color: rgb(189, 73, 7);
+}
+/* this is where Angela style card ends*/
