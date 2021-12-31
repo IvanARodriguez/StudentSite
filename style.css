@@ -104,6 +104,10 @@ header .gen-logo{
     max-height: 500px;
     height: 20em;
     background-image: url("images/mary-skrynnikova-uluH5a0sRdw-unsplash.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.3em;
 }
 
 .angela-box p{
@@ -119,6 +123,12 @@ header .gen-logo{
 }
 .angela-btn{
     background-color: rgb(87, 84, 84);
+    font-size: 1em;
+    color: white;
+    border: none;
+    padding: 1em 4em;
+    cursor: pointer;
+    border-radius: 3em;
 }
 
 .angela-btn:hover{
