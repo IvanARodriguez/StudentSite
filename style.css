@@ -93,7 +93,6 @@ header .gen-logo{
 }
 /* this is where Ivan style card ends*/
 
-<<<<<<< HEAD
 /* this is where Angela style card starts*/
 .angela-box{
     margin: 2em 0;
@@ -104,8 +103,29 @@ header .gen-logo{
 .angela-box .img-box{
     max-height: 500px;
     height: 20em;
-    background-image: url("/images/mary-skrynnikova-uluH5a0sRdw-unsplash.jpg");
-=======
+    background-image: url("images/mary-skrynnikova-uluH5a0sRdw-unsplash.jpg");
+}
+
+.angela-box p{
+    margin: .8em 0;
+    color: rgb(247, 243, 241);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+
+.angela-box h1{
+    margin: .8em 0;
+    color: rgb(235, 229, 227);
+}
+.angela-btn{
+    background-color: rgb(87, 84, 84);
+}
+
+.angela-btn:hover{
+    background-color: rgb(189, 73, 7);
+}
+/* Angela section ends */
+
 /* this is where Steve style card starts*/
 .steve-box{
     max-width: 400px;
@@ -173,30 +193,12 @@ header .gen-logo{
     max-height: 500px;
     height: 20em;
     background-image: url("images/xps-bXfQLglc81U-unsplash.jpg");
->>>>>>> f9a3243920d7ad23fe934b6f5d8b6e013ab66eee
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1.3em;
 }
-<<<<<<< HEAD
-.angela-box img{
-    width: 100%;
-}
-.angela-box p{
-    margin: .8em 0;
-    color: rgb(247, 243, 241);
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-}
 
-.angela-box h1{
-    margin: .8em 0;
-    color: rgb(235, 229, 227);
-}
-.angela-btn{
-    background-color: rgb(87, 84, 84);
-=======
 .madona-box img{
     width: 100%;
 }
@@ -213,7 +215,7 @@ header .gen-logo{
 }
 .madona-btn{
     background-color: rgb(99, 14, 148);
->>>>>>> f9a3243920d7ad23fe934b6f5d8b6e013ab66eee
+
     font-size: 1em;
     color: white;
     border: none;
@@ -221,14 +223,53 @@ header .gen-logo{
     cursor: pointer;
     border-radius: 3em;
 }
-<<<<<<< HEAD
-.angela-btn:hover{
-    background-color: rgb(189, 73, 7);
-}
-/* this is where Angela style card ends*/
-=======
+
 .madona-btn:hover{
     background-color: rgb(77, 11, 74);
 }
 /* this is where Madona style card ends*/
->>>>>>> f9a3243920d7ad23fe934b6f5d8b6e013ab66eee
+
+/* this is where Tiffany Style card starts*/
+.tiffany-box{
+    margin: 2em 0;
+    background-color: rgb(90, 186, 224);
+    border-radius: 3em;
+    padding: 2em;
+}
+.tiffany-box .img-box{
+    max-height: 500px;
+    height: 20em;
+    background-image: url("images/blue.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.3em
+}
+.tiffany-box img{
+    width: 100%;
+}
+.tiffany-box p{
+    margin: .8em 0;
+    color: rgba(11, 99, 80, 0.699);
+    font-family: 'Oooh Baby', cursive;
+    font-size: 2em;
+}
+
+.tiffany-box h1{
+    margin: .8em 0;
+    color: rgb(73, 80, 78);
+}
+.tiffany-btn{
+    background-color: rgb(161, 79, 93);
+    font-size: 1em;
+    color: white;
+    border: none;
+    padding: 1em 4em;
+    cursor: pointer;
+    border-radius: 3em;
+}
+.tiffany-btn:hover{
+    background-color: rgb(13, 153, 55);
+}
+/* this is where Tiffany style card ends*/
+
