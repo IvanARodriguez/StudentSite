@@ -288,7 +288,7 @@ header .gen-logo{
 /* this is where Claudio style card starts */
 .claudio-box{
     margin: 2em 0;
-    background-color: rgb(90, 186, 224);
+    background-color: rgb(226, 226, 40);
     border-radius: 3em;
     padding: 2em;
 }
@@ -306,7 +306,7 @@ header .gen-logo{
     margin: .8em 0;
     color: rgba(11, 99, 80, 0.699);
     font-family: 'Oooh Baby', cursive;
-    font-size: 2em;
+    font-size: 1.9em;
 }
 
 .claudio-box h1{
@@ -314,15 +314,15 @@ header .gen-logo{
     color: rgb(73, 80, 78);
 }
 .claudio-btn{
-    background-color: rgb(161, 79, 93);
+    background-color: rgb(68, 66, 67);
     font-size: 1em;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 1em 4em;
     cursor: pointer;
     border-radius: 3em;
 }
 .claudio-btn:hover{
-    background-color: rgb(13, 153, 55);
+    background-color: rgb(0, 0, 0);
 }
 /* this is Claudio style card ends */
