@@ -32,12 +32,13 @@ header .gen-logo{
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 10px auto;
+    padding: 0 10px;
 }
-/* ================================ */
-/* PLEASE DONT EDIT THE CODE ABOVE= */
-/* ================================ */
+/*======================================================================================== */
+/*===============================PLEASE DONT EDIT THE CODE ABOVE========================== */
+/*======================================================================================== */
 
 /* this is where Ivan style card starts*/
 .ivan-box{
@@ -47,15 +48,17 @@ header .gen-logo{
     border-radius: 3em;
     padding: 2em;
 }
+#ivan-id{
+    background-color: blueviolet;
+}
 .ivan-box .img-box{
-    max-height: 400px;
-    height: 15em;
+    max-height: 500px;
+    height: 20em;
     background-image: url("images/xps-6uneKLGrJPs-unsplash.jpeg");
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1.3em;
-    overflow: hidden;
 }
 .ivan-box img{
     max-height: 20rem;
@@ -114,7 +117,7 @@ header .gen-logo{
     margin: .8em 0;
     color: rgb(247, 243, 241);
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .angela-box h1{
@@ -242,7 +245,7 @@ header .gen-logo{
 /* this is where Tiffany Style card starts*/
 .tiffany-box{
     margin: 2em 0;
-    background-color: rgb(90, 186, 224);
+    background-color: rgb(1, 8, 10);
     border-radius: 3em;
     padding: 2em;
 }
@@ -260,14 +263,14 @@ header .gen-logo{
 }
 .tiffany-box p{
     margin: .8em 0;
-    color: rgba(11, 99, 80, 0.699);
+    color: rgba(191, 226, 219, 0.699);
     font-family: 'Oooh Baby', cursive;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 .tiffany-box h1{
     margin: .8em 0;
-    color: rgb(73, 80, 78);
+    color: rgb(211, 221, 218);
 }
 .tiffany-btn{
     background-color: rgb(161, 79, 93);
@@ -306,7 +309,11 @@ header .gen-logo{
     margin: .8em 0;
     color: rgba(11, 99, 80, 0.699);
     font-family: 'Oooh Baby', cursive;
+<<<<<<< HEAD
     font-size: 1.9em;
+=======
+    font-size: 1.2em;
+>>>>>>> 76999c4f575d6409ba5010936b3f651a328f62fd
 }
 
 .claudio-box h1{
