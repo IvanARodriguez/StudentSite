@@ -13,9 +13,26 @@ a{
     color: inherit;
     text-decoration: none;
 }
-
+header{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    font-size: 1.5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 0;
+    color: rgb(140, 48, 210);
+}
+header .gen-logo{
+    max-height: 150px;
+    border-radius: 2em;
+    
+}
 .container{
-    max-width: 600px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    max-width: 1200px;
     margin: 10px auto;
 }
 /* ================================ */
@@ -24,28 +41,38 @@ a{
 
 /* this is where Ivan style card starts*/
 .ivan-box{
+    max-width: 400px;
     margin: 2em 0;
     background-color: rgb(207, 237, 249);
     border-radius: 3em;
     padding: 2em;
 }
 .ivan-box .img-box{
-    max-height: 500px;
-    height: 20em;
-    background-image: url("/images/xps-6uneKLGrJPs-unsplash.jpeg");
+    max-height: 400px;
+    height: 15em;
+    background-image: url("images/xps-6uneKLGrJPs-unsplash.jpeg");
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1.3em;
+    overflow: hidden;
 }
 .ivan-box img{
+    max-height: 20rem;
+    height: 100%;
     width: 100%;
+    object-position: bottom;
+    object-fit: cover;
+    transition: all 0.2s ease-out;
+}
+.ivan-box img:hover{
+    transform: scale(1.2);
 }
 .ivan-box p{
     margin: .8em 0;
     color: rgb(96, 96, 96);
     font-family: 'Oooh Baby', cursive;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 .ivan-box h1{
@@ -68,28 +95,37 @@ a{
 
 /* this is where Steve style card starts*/
 .steve-box{
+    max-width: 400px;
     margin: 2em 0;
     background-color: rgb(207, 237, 249);
     border-radius: 3em;
-    padding: 2em;
+    padding: 2em;    
 }
-.steve-box .img-box{
-    max-height: 500px;
-    height: 20em;
-    background-image: url("/images/disaster.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 1.3em;
+
+.steve-box .img-box{   
+    border-radius: 1.3rem; 
+    overflow: hidden;
 }
-.steve-box img{
+
+.steve-box .img-box img{
+    max-height: 20rem;
+    height: 100%;
     width: 100%;
+    object-position: bottom;
+    object-fit: cover;
+    transition: all 0.2s ease-out;
 }
+
+.steve-box .img-box img:hover{
+    transform: scale(1.2);
+}
+
+
 .steve-box p{
     margin: .8em 0;
     color: rgb(96, 96, 96);
     font-family: 'Oooh Baby', cursive;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 .steve-box h1{
@@ -99,16 +135,63 @@ a{
 .steve-btn{
     background-color: rgb(14, 108, 148);
     font-size: 1em;
+    color: rgba(255, 255, 255, 0.884);
+    border: none;
+    padding: 1em 4em;
+    cursor: pointer;
+    border-radius: 3em;
+    transition: all 0.2s ease-out;
+}
+.steve-btn:hover{
+    background-color: rgb(11, 57, 77);
+    transform: scale(1.2);
+}
+/* this is where Steve style card ends*/
+
+/* this is where Madona style card starts*/
+.madona-box{
+    max-width: 400px;
+    margin: 2em 0;
+    background-color: rgb(249, 207, 233);
+    border-radius: 3em;
+    padding: 2em;
+}
+.madona-box .img-box{
+    max-height: 500px;
+    height: 20em;
+    background-image: url("images/xps-bXfQLglc81U-unsplash.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.3em;
+}
+.madona-box img{
+    width: 100%;
+}
+.madona-box p{
+    margin: .8em 0;
+    color: rgb(96, 96, 96);
+    font-family: 'Oooh Baby', cursive;
+    font-size: 1.3em;
+}
+
+.madona-box h1{
+    margin: .8em 0;
+    color: rgb(73, 80, 78);
+}
+.madona-btn{
+    background-color: rgb(99, 14, 148);
+    font-size: 1em;
     color: white;
     border: none;
     padding: 1em 4em;
     cursor: pointer;
     border-radius: 3em;
 }
-.steve-btn:hover{
-    background-color: rgb(11, 57, 77);
+.madona-btn:hover{
+    background-color: rgb(77, 11, 74);
 }
-/* this is where Steve style card ends*/
+/* this is where Madona style card ends*/
 
 
 /* this is where Tiffany Style card starts*/
@@ -121,7 +204,7 @@ a{
 .tiffany-box .img-box{
     max-height: 500px;
     height: 20em;
-    background-image: url("/images/blue.jpg");
+    background-image: url("images/blue.jpg");
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,3 +237,4 @@ a{
     background-color: rgb(13, 153, 55);
 }
 /* this is where Tiffany style card ends*/
+
