@@ -329,3 +329,39 @@ header .gen-logo{
     background-color: rgb(13, 153, 55);
 }
 /* this is Claudio style card ends */
+
+/* Test for four images scaling to two */
+.img-container{
+    height: 600px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.column{
+    height: 200px;
+    width: 200px;
+    flex: 25%;
+}
+@media screen and (max-width: 992px) {
+    .column{
+        flex: 50%;
+    }    
+}
+@media screen and (max-width: 600px) {
+    .column{
+        flex-direction: column;
+    }    
+}
+#img1{
+    background: chocolate;
+}
+#img2{
+    background: red;
+}
+#img3{
+    background: green;
+}
+#img4{
+    background: blue;
+}
