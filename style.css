@@ -238,3 +238,46 @@ header .gen-logo{
 }
 /* this is where Tiffany style card ends*/
 
+
+
+/* this is where Claudio style card starts */
+.claudio-box{
+    margin: 2em 0;
+    background-color: rgb(90, 186, 224);
+    border-radius: 3em;
+    padding: 2em;
+}
+.claudio-box .img-box-c{
+    max-height: 500px;
+    height: 20em;
+    background-image: url("images/Computer1.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.3em
+}
+
+.claudio-box p{
+    margin: .8em 0;
+    color: rgba(11, 99, 80, 0.699);
+    font-family: 'Oooh Baby', cursive;
+    font-size: 2em;
+}
+
+.claudio-box h1{
+    margin: .8em 0;
+    color: rgb(73, 80, 78);
+}
+.claudio-btn{
+    background-color: rgb(161, 79, 93);
+    font-size: 1em;
+    color: white;
+    border: none;
+    padding: 1em 4em;
+    cursor: pointer;
+    border-radius: 3em;
+}
+.claudio-btn:hover{
+    background-color: rgb(13, 153, 55);
+}
+/* this is Claudio style card ends */
