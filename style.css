@@ -43,7 +43,7 @@ header .gen-logo{
 /* this is where Ivan style card starts*/
 .ivan-box{
     max-width: 400px;
-    margin: 2em 0;
+    margin: 2em auto;
     background-color: rgb(207, 237, 249);
     border-radius: 3em;
     padding: 2em;
@@ -98,10 +98,11 @@ header .gen-logo{
 
 /* this is where Angela style card starts*/
 .angela-box{
-    margin: 2em 0;
+    margin: 2em auto;
     background-color: rgb(71, 14, 4);
     border-radius: 3em;
     padding: 2em;
+    max-width: 400px;
 }
 .angela-box .img-box{
     max-height: 500px;
@@ -142,7 +143,7 @@ header .gen-logo{
 /* this is where Steve style card starts*/
 .steve-box{
     max-width: 400px;
-    margin: 2em 0;
+    margin: 2em auto;
     background-color: rgb(207, 237, 249);
     border-radius: 3em;
     padding: 2em;    
@@ -197,7 +198,7 @@ header .gen-logo{
 /* this is where Madona style card starts*/
 .madona-box{
     max-width: 400px;
-    margin: 2em 0;
+    margin: 2em auto;
     background-color: rgb(249, 207, 233);
     border-radius: 3em;
     padding: 2em;
@@ -244,10 +245,11 @@ header .gen-logo{
 
 /* this is where Tiffany Style card starts*/
 .tiffany-box{
-    margin: 2em 0;
+    margin: 2em auto;
     background-color: rgb(1, 8, 10);
     border-radius: 3em;
     padding: 2em;
+    max-width: 400px;
 }
 .tiffany-box .img-box{
     max-height: 500px;
@@ -290,10 +292,11 @@ header .gen-logo{
 
 /* this is where Claudio style card starts */
 .claudio-box{
-    margin: 2em 0;
+    margin: 2em auto;
     background-color: rgb(90, 186, 224);
     border-radius: 3em;
     padding: 2em;
+    max-width: 400px;
 }
 .claudio-box .img-box-c{
     max-height: 500px;
@@ -329,3 +332,96 @@ header .gen-logo{
     background-color: rgb(13, 153, 55);
 }
 /* this is Claudio style card ends */
+
+/*======================  BANNERS START BELOW THIS COMMENT =========================== */
+
+.banner-section{
+    width: 100%;
+}
+
+/* Ivan Banner start here */
+
+.banner-ivan-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e36765;
+    color: antiquewhite;
+    box-shadow: 5px 10px 30px rgb(112, 112, 112);
+    border-radius: 2em;
+    padding: 1.3em;
+    margin-bottom: 2em;
+}
+
+.banner-ivan-box .banner-img{
+    background-image: url("images/flat-design-trend.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+    min-width: 300px;
+    height: 30em;
+    border-radius: 2em 10em 10em 2em;
+}
+.banner-ivan-box .banner-content{
+    width: 50%;
+}
+
+.banner-content h1, 
+.banner-content h3,
+.banner-content p,
+.banner-content ul{
+    padding-bottom: 1.2em;
+}
+.banner-content h1{
+    color: rgb(255, 193, 117);
+}
+
+.banner-content ul li {
+    font-weight: lighter;
+}
+
+.btn-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5em 0;
+}
+.btn-left, .btn-right{
+    color: #d29190;
+    background-color: bisque;
+    padding: .7em 1em;
+    font-size: larger;
+    border: none;
+    border-radius: 1.3em;
+}
+.btn-left:hover,
+ .btn-right:hover{
+    background-color: rgb(247, 209, 162);
+ }
+
+.btn-center{
+    color: #e4d0d0;
+    background-color: rgb(219, 145, 54);
+    padding: .7em 1em;
+    margin: 0 1.5em;
+    font-size: larger;
+    border: none;
+    border-radius: 1.3em;
+}
+@media only screen  and (max-width: 600px){
+    .banner-ivan-box{
+        padding: 0;
+    }
+    .banner-ivan-box .banner-content{
+        width: 100%;
+        margin-top: 2em;
+        padding: 2em;
+    }
+    .banner-ivan-box .banner-img{
+        width: 100%;
+        border-radius: 0;
+    }
+}
