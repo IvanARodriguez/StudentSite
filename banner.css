@@ -1,0 +1,153 @@
+/* ==================================================================================  */
+/*======================  BANNERS START BELOW THIS COMMENT =========================== */
+/* ==================================================================================  */
+
+.banner-section{
+    width: 100%;
+}
+
+/* Ivan Banner start here */
+#ivan-section{
+    background-color: #e36765;
+    width: 100%;
+}
+.banner-title{
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    align-items: center;
+}
+.dotneticon{
+    max-width: 50px;
+    border-radius: 10em;
+    margin: 01em;
+    box-shadow: 5px 5px 10px #6009086b;;
+    align-self: flex-start;
+
+}
+.banner-ivan-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e36765;
+    color: antiquewhite;
+    border-radius: 2em;
+    padding: 1.3em;
+    margin-bottom: 2em;
+}
+
+.banner-ivan-box .banner-img{
+    background-image: url("images/flat-design-trend.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+    min-width: 300px;
+    margin-bottom: 6em;
+    height: 30em;
+    border-radius: 2em;
+}
+.banner-ivan-box .banner-content{
+    width: 50%;
+}
+ .banner-title,
+.banner-content h3,
+.banner-content p,
+.banner-content ul{
+    padding-bottom: .8em;
+}
+.banner-content h1{
+    color: rgb(255, 193, 117);
+    font-size: 3em;
+}
+.banner-content ul{
+    list-style-position: inside;
+}
+.banner-content ul li {
+    font-weight: lighter;
+}
+
+.btn-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5em 0;
+}
+.btn-left, .btn-right{
+    color: #d29190;
+    background-color: bisque;
+    padding: .7em 1em;
+    font-size: larger;
+    border: none;
+    border-radius: 1.3em;
+}
+.btn-left:hover,
+ .btn-right:hover,
+ .btn-center:hover{
+    background-color: rgb(247, 209, 162);
+    color: rgb(255, 255, 255);
+    transition: all .200s ease-in-out;
+ }
+
+.btn-center{
+    color: #e4d0d0;
+    background-color: rgb(219, 145, 54);
+    padding: .7em 1em;
+    margin: 0 1.5em;
+    font-size: larger;
+    border: none;
+    border-radius: 1.3em;
+}
+
+/* Ivan Banner start here */
+
+/* ==================================================================================  */
+/*======================  Responsiveness for devices ================================= */
+/* ==================================================================================  */
+
+@media only screen  and (max-width: 950px){
+    .container{
+        padding: 0;
+    }
+    header{
+        padding: .5em;
+    }
+    header .gen-logo{
+        max-width: 100px;
+    }
+    
+    .banner-ivan-box{
+        padding: 0;
+    }
+    .banner-ivan-box .banner-content{
+        text-align: center;
+        width: 100%;
+        margin-top: 2em;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    .banner-content h1{
+        font-size: 2em;
+    }
+    .banner-ivan-box .banner-img{
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+    .btn-box{
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-box .btn-left,
+    .btn-box .btn-right,
+    .btn-box .btn-center{
+        margin: 5px;
+        font-size: .7em;
+    }
+}

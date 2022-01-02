@@ -26,8 +26,10 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1.5em 0;
+    padding: .8em 0;
     color: rgb(140, 48, 210);
+    background-color: #e36765;
+    position: relative;
 }
 header .gen-logo{
     max-height: 150px;
@@ -39,7 +41,7 @@ header .gen-logo{
     gap: 15px;
     grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
     max-width: 1300px;
-    margin: 10px auto;
+    margin: auto;
     padding: 0 10px;
 }
 /*======================================================================================== */
@@ -339,126 +341,7 @@ header .gen-logo{
 }
 /* this is Claudio style card ends */
 
-/* ==================================================================================  */
-/*======================  BANNERS START BELOW THIS COMMENT =========================== */
-/* ==================================================================================  */
 
-.banner-section{
-    width: 100%;
-}
-
-/* Ivan Banner start here */
-
-.banner-ivan-box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #e36765;
-    color: antiquewhite;
-    box-shadow: 5px 10px 30px rgb(112, 112, 112);
-    border-radius: 2em;
-    padding: 1.3em;
-    margin-bottom: 2em;
-}
-
-.banner-ivan-box .banner-img{
-    background-image: url("images/flat-design-trend.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 45%;
-    min-width: 300px;
-    height: 30em;
-    border-radius: 2em 10em 10em 2em;
-}
-.banner-ivan-box .banner-content{
-    width: 50%;
-}
-
-.banner-content h1, 
-.banner-content h3,
-.banner-content p,
-.banner-content ul{
-    padding-bottom: 1.2em;
-}
-.banner-content h1{
-    color: rgb(255, 193, 117);
-}
-
-.banner-content ul li {
-    font-weight: lighter;
-}
-
-.btn-box{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 1.5em 0;
-}
-.btn-left, .btn-right{
-    color: #d29190;
-    background-color: bisque;
-    padding: .7em 1em;
-    font-size: larger;
-    border: none;
-    border-radius: 1.3em;
-}
-.btn-left:hover,
- .btn-right:hover,
- .btn-center:hover{
-    background-color: rgb(247, 209, 162);
-    color: rgb(255, 255, 255);
-    transition: all .200s ease-in-out;
- }
-
-.btn-center{
-    color: #e4d0d0;
-    background-color: rgb(219, 145, 54);
-    padding: .7em 1em;
-    margin: 0 1.5em;
-    font-size: larger;
-    border: none;
-    border-radius: 1.3em;
-}
-
-/* ==================================================================================  */
-/*======================  Responsiveness for devices ================================= */
-/* ==================================================================================  */
-
-@media only screen  and (max-width: 950px){
-    .container{
-        padding: 0;
-    }
-    header{
-        padding: .5em;
-    }
-    header .gen-logo{
-        max-width: 100px;
-    }
-    
-    .banner-ivan-box{
-        padding: 0;
-    }
-    .banner-ivan-box .banner-content{
-        width: 100%;
-        margin-top: 2em;
-        padding: 2em;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .banner-ivan-box .banner-img{
-        width: 100%;
-        border-radius: 0;
-    }
-    .btn-box{
-        align-items: center;
-        justify-content: center;
-    }
-}
 
 
 /* Test for four images scaling to two */
