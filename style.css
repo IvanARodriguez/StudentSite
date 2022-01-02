@@ -13,6 +13,12 @@ a{
     color: inherit;
     text-decoration: none;
 }
+.generation-Btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .6em;
+}
 header{
     font-family: 'Raleway', sans-serif;
     display: flex;
@@ -25,7 +31,7 @@ header{
 }
 header .gen-logo{
     max-height: 150px;
-    border-radius: 2em;
+    border-radius: 1.3em;
     
 }
 .container{
@@ -416,7 +422,22 @@ header .gen-logo{
     border: none;
     border-radius: 1.3em;
 }
-@media only screen  and (max-width: 600px){
+
+/* ==================================================================================  */
+/*======================  Responsiveness for devices ================================= */
+/* ==================================================================================  */
+
+@media only screen  and (max-width: 950px){
+    .container{
+        padding: 0;
+    }
+    header{
+        padding: .5em;
+    }
+    header .gen-logo{
+        max-width: 100px;
+    }
+    
     .banner-ivan-box{
         padding: 0;
     }
@@ -424,10 +445,18 @@ header .gen-logo{
         width: 100%;
         margin-top: 2em;
         padding: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .banner-ivan-box .banner-img{
         width: 100%;
         border-radius: 0;
+    }
+    .btn-box{
+        align-items: center;
+        justify-content: center;
     }
 }
 
