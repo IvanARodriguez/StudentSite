@@ -52,3 +52,5 @@ Amanda Smithlin - Dec 29, 2021
 Tanya Mann - Dec 30 2021
 
 Camry Leon January 3 2022
+
+Rousse Bidon - January 3, 2021
