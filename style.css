@@ -337,6 +337,65 @@ header .gen-logo {
 }
 /* this is Claudio style card ends */
 
+/* this is where Jeremy style card starts*/
+.jeremy-box {
+  max-width: 400px;
+  margin: 2em auto;
+  background-color: #222629;
+  border-radius: 3em;
+  padding: 2em;
+}
+#jeremy-id {
+  background-color: blueviolet;
+}
+.jeremy-box .img-box {
+  max-height: 500px;
+  height: 20em;
+  background-image: url("images/jeremy_photo-.png");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.3em;
+}
+.jeremy-box .img-box:hover {
+  transform: scale(1.01);
+}
+.jeremy-box p {
+  margin: 0.9em 0 1.5em;
+  color: #86c232;
+  font-family: "Poppins";
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.jeremy-box p:nth-of-type(2) {
+  margin: 0.8em 0;
+  color: #ffffffde;
+  font-family: "Poppins";
+  font-size: 1em;
+  font-weight: 300;
+}
+.jeremy-box h1 {
+  margin: 0.3em 0 -0.7em;
+  color: #ffffffde;
+  font-weight: 200;
+}
+.jeremy-btn {
+  background-color: #86c232;
+  font-size: 1em;
+  color: #ffffffde;
+  border: none;
+  padding: 1em 4em;
+  cursor: pointer;
+  border-radius: 3em;
+  margin: 1em 0 -0.1em;
+}
+.jeremy-btn:hover {
+  background-color: #ffffff;
+  color: #86c232;
+  font-weight: 400;
+}
+/* this is where Jeremy style card ends*/
+
 /* this is where yetnayet style card starts*/
 .yetnayet-box {
   max-width: 400px;
