@@ -1,446 +1,493 @@
-@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poppins:wght@200;300;500&family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poppins:wght@200;300;500&family=Raleway:wght@300&display=swap");
 /* 
 font-family: 'Oooh Baby', cursive;
 font-family: 'Poppins', sans-serif;
 font-family: 'Raleway', sans-serif; */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
-a{
-    color: inherit;
-    text-decoration: none;
+a {
+  color: inherit;
+  text-decoration: none;
 }
-.generation-Btn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: .6em;
+.generation-Btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.6em;
 }
-header{
-    font-family: 'Raleway', sans-serif;
-    display: flex;
-    font-size: 1.5em;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: .8em 0;
-    color: rgb(140, 48, 210);
-    background-color: #e36765;
-    position: relative;
+header {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  font-size: 1.5em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8em 0;
+  color: rgb(140, 48, 210);
+  background-color: #e36765;
+  position: relative;
 }
-header .gen-logo{
-    max-height: 150px;
-    border-radius: 1.3em;
-    
+header .gen-logo {
+  max-height: 150px;
+  border-radius: 1.3em;
 }
-.container{
-    display: grid;
-    gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
-    max-width: 1300px;
-    margin: auto;
-    padding: 0 10px;
+.container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 10px;
 }
 /*======================================================================================== */
 /*===============================PLEASE DONT EDIT THE CODE ABOVE========================== */
 /*======================================================================================== */
 
 /* this is where Ivan style card starts*/
-.ivan-box{
-    max-width: 400px;
-    margin: 2em auto;
-    background-color: rgb(207, 237, 249);
-    border-radius: 3em;
-    padding: 2em;
+.ivan-box {
+  max-width: 400px;
+  margin: 2em auto;
+  background-color: rgb(207, 237, 249);
+  border-radius: 3em;
+  padding: 2em;
 }
-#ivan-id{
-    background-color: blueviolet;
+#ivan-id {
+  background-color: blueviolet;
 }
-.ivan-box .img-box{
-    max-height: 500px;
-    height: 20em;
-    background-image: url("images/xps-6uneKLGrJPs-unsplash.jpeg");
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 1.3em;
+.ivan-box .img-box {
+  max-height: 500px;
+  height: 20em;
+  background-image: url("images/xps-6uneKLGrJPs-unsplash.jpeg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.3em;
 }
-.ivan-box img{
-    max-height: 20rem;
-    height: 100%;
-    width: 100%;
-    object-position: bottom;
-    object-fit: cover;
-    transition: all 0.2s ease-out;
+.ivan-box img {
+  max-height: 20rem;
+  height: 100%;
+  width: 100%;
+  object-position: bottom;
+  object-fit: cover;
+  transition: all 0.2s ease-out;
 }
-.ivan-box img:hover{
-    transform: scale(1.2);
+.ivan-box img:hover {
+  transform: scale(1.2);
 }
-.ivan-box p{
-    margin: .8em 0;
-    color: rgb(96, 96, 96);
-    font-family: 'Oooh Baby', cursive;
-    font-size: 1.2em;
+.ivan-box p {
+  margin: 0.8em 0;
+  color: rgb(96, 96, 96);
+  font-family: "Oooh Baby", cursive;
+  font-size: 1.2em;
 }
 
-.ivan-box h1{
-    margin: .8em 0;
-    color: rgb(73, 80, 78);
+.ivan-box h1 {
+  margin: 0.8em 0;
+  color: rgb(73, 80, 78);
 }
-.ivan-btn{
-    background-color: rgb(14, 108, 148);
-    font-size: 1em;
-    color: white;
-    border: none;
-    padding: 1em 4em;
-    cursor: pointer;
-    border-radius: 3em;
+.ivan-btn {
+  background-color: rgb(14, 108, 148);
+  font-size: 1em;
+  color: white;
+  border: none;
+  padding: 1em 4em;
+  cursor: pointer;
+  border-radius: 3em;
 }
-.ivan-btn:hover{
-    background-color: rgb(11, 57, 77);
+.ivan-btn:hover {
+  background-color: rgb(11, 57, 77);
 }
 /* this is where Ivan style card ends*/
 
 /* this is where Angela style card starts*/
-.angela-box{
-    margin: 2em auto;
-    background-color: rgb(71, 14, 4);
-    border-radius: 3em;
-    padding: 2em;
-    max-width: 400px;
+.angela-box {
+  margin: 2em auto;
+  background-color: rgb(71, 14, 4);
+  border-radius: 3em;
+  padding: 2em;
+  max-width: 400px;
 }
-.angela-box .img-box{
-    max-height: 500px;
-    height: 20em;
-    background-image: url("images/mary-skrynnikova-uluH5a0sRdw-unsplash.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 1.3em;
-}
-
-.angela-box p{
-    margin: .8em 0;
-    color: rgb(247, 243, 241);
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2em;
+.angela-box .img-box {
+  max-height: 500px;
+  height: 20em;
+  background-image: url("images/mary-skrynnikova-uluH5a0sRdw-unsplash.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.3em;
 }
 
-.angela-box h1{
-    margin: .8em 0;
-    color: rgb(235, 229, 227);
-}
-.angela-btn{
-    background-color: rgb(87, 84, 84);
-    font-size: 1em;
-    color: white;
-    border: none;
-    padding: 1em 4em;
-    cursor: pointer;
-    border-radius: 3em;
+.angela-box p {
+  margin: 0.8em 0;
+  color: rgb(247, 243, 241);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
 }
 
-.angela-btn:hover{
-    background-color: rgb(189, 73, 7);
+.angela-box h1 {
+  margin: 0.8em 0;
+  color: rgb(235, 229, 227);
+}
+.angela-btn {
+  background-color: rgb(87, 84, 84);
+  font-size: 1em;
+  color: white;
+  border: none;
+  padding: 1em 4em;
+  cursor: pointer;
+  border-radius: 3em;
+}
+
+.angela-btn:hover {
+  background-color: rgb(189, 73, 7);
 }
 /* Angela section ends */
 
 /* this is where Steve style card starts*/
-.steve-box{
-    max-width: 400px;
-    margin: 2em auto;
-    background-color: rgb(207, 237, 249);
-    border-radius: 3em;
-    padding: 2em;    
+.steve-box {
+  max-width: 400px;
+  margin: 2em auto;
+  background-color: rgb(207, 237, 249);
+  border-radius: 3em;
+  padding: 2em;
 }
 
-.steve-box .img-box{   
-    border-radius: 1.3rem; 
-    overflow: hidden;
+.steve-box .img-box {
+  border-radius: 1.3rem;
+  overflow: hidden;
 }
 
-.steve-box .img-box img{
-    max-height: 20rem;
-    height: 100%;
-    width: 100%;
-    object-position: bottom;
-    object-fit: cover;
-    transition: all 0.2s ease-out;
+.steve-box .img-box img {
+  max-height: 20rem;
+  height: 100%;
+  width: 100%;
+  object-position: bottom;
+  object-fit: cover;
+  transition: all 0.2s ease-out;
 }
 
-.steve-box .img-box img:hover{
-    transform: scale(1.2);
+.steve-box .img-box img:hover {
+  transform: scale(1.2);
 }
 
-
-.steve-box p{
-    margin: .8em 0;
-    color: rgb(96, 96, 96);
-    font-family: 'Oooh Baby', cursive;
-    font-size: 1.2em;
+.steve-box p {
+  margin: 0.8em 0;
+  color: rgb(96, 96, 96);
+  font-family: "Oooh Baby", cursive;
+  font-size: 1.2em;
 }
 
-.steve-box h1{
-    margin: .8em 0;
-    color: rgb(73, 80, 78);
+.steve-box h1 {
+  margin: 0.8em 0;
+  color: rgb(73, 80, 78);
 }
-.steve-btn{
-    background-color: rgb(14, 108, 148);
-    font-size: 1em;
-    color: rgba(255, 255, 255, 0.884);
-    border: none;
-    padding: 1em 4em;
-    cursor: pointer;
-    border-radius: 3em;
-    transition: all 0.2s ease-out;
+.steve-btn {
+  background-color: rgb(14, 108, 148);
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.884);
+  border: none;
+  padding: 1em 4em;
+  cursor: pointer;
+  border-radius: 3em;
+  transition: all 0.2s ease-out;
 }
-.steve-btn:hover{
-    background-color: rgb(11, 57, 77);
-    transform: scale(1.2);
+.steve-btn:hover {
+  background-color: rgb(11, 57, 77);
+  transform: scale(1.2);
 }
 /* this is where Steve style card ends*/
 
 /* this is where Madona style card starts*/
-.madona-box{
-    max-width: 400px;
-    margin: 2em auto;
-    background-color: rgb(249, 207, 233);
-    border-radius: 3em;
-    padding: 2em;
+.madona-box {
+  max-width: 400px;
+  margin: 2em auto;
+  background-color: rgb(249, 207, 233);
+  border-radius: 3em;
+  padding: 2em;
 }
-.madona-box .img-box{
-    max-height: 500px;
-    height: 20em;
-    background-image: url("images/xps-bXfQLglc81U-unsplash.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 1.3em;
-}
-
-.madona-box img{
-    width: 100%;
-}
-.madona-box p{
-    margin: .8em 0;
-    color: rgb(96, 96, 96);
-    font-family: 'Oooh Baby', cursive;
-    font-size: 1.3em;
+.madona-box .img-box {
+  max-height: 500px;
+  height: 20em;
+  background-image: url("images/xps-bXfQLglc81U-unsplash.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.3em;
 }
 
-.madona-box h1{
-    margin: .8em 0;
-    color: rgb(73, 80, 78);
+.madona-box img {
+  width: 100%;
 }
-.madona-btn{
-    background-color: rgb(99, 14, 148);
-
-    font-size: 1em;
-    color: white;
-    border: none;
-    padding: 1em 4em;
-    cursor: pointer;
-    border-radius: 3em;
+.madona-box p {
+  margin: 0.8em 0;
+  color: rgb(96, 96, 96);
+  font-family: "Oooh Baby", cursive;
+  font-size: 1.3em;
 }
 
-.madona-btn:hover{
-    background-color: rgb(77, 11, 74);
+.madona-box h1 {
+  margin: 0.8em 0;
+  color: rgb(73, 80, 78);
+}
+.madona-btn {
+  background-color: rgb(99, 14, 148);
+
+  font-size: 1em;
+  color: white;
+  border: none;
+  padding: 1em 4em;
+  cursor: pointer;
+  border-radius: 3em;
+}
+
+.madona-btn:hover {
+  background-color: rgb(77, 11, 74);
 }
 /* this is where Madona style card ends*/
 
 /* this is where Tiffany Style card starts*/
-.tiffany-box{
-    margin: 2em auto;
-    background-color: rgb(1, 8, 10);
-    border-radius: 3em;
-    padding: 2em;
-    max-width: 400px;
+.tiffany-box {
+  margin: 2em auto;
+  background-color: rgb(1, 8, 10);
+  border-radius: 3em;
+  padding: 2em;
+  max-width: 400px;
 }
-.tiffany-box .img-box{
-    max-height: 500px;
-    height: 20em;
-    background-image: url("images/blue.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 1.3em
+.tiffany-box .img-box {
+  max-height: 500px;
+  height: 20em;
+  background-image: url("images/blue.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.3em;
 }
-.tiffany-box img{
-    width: 100%;
+.tiffany-box img {
+  width: 100%;
 }
-.tiffany-box p{
-    margin: .8em 0;
-    color: rgba(191, 226, 219, 0.699);
-    font-family: 'Oooh Baby', cursive;
-    font-size: 1.2em;
+.tiffany-box p {
+  margin: 0.8em 0;
+  color: rgba(191, 226, 219, 0.699);
+  font-family: "Oooh Baby", cursive;
+  font-size: 1.2em;
 }
 
-.tiffany-box h1{
-    margin: .8em 0;
-    color: rgb(211, 221, 218);
+.tiffany-box h1 {
+  margin: 0.8em 0;
+  color: rgb(211, 221, 218);
 }
-.tiffany-btn{
-    background-color: rgb(161, 79, 93);
-    font-size: 1em;
-    color: white;
-    border: none;
-    padding: 1em 4em;
-    cursor: pointer;
-    border-radius: 3em;
+.tiffany-btn {
+  background-color: rgb(161, 79, 93);
+  font-size: 1em;
+  color: white;
+  border: none;
+  padding: 1em 4em;
+  cursor: pointer;
+  border-radius: 3em;
 }
-.tiffany-btn:hover{
-    background-color: rgb(13, 153, 55);
+.tiffany-btn:hover {
+  background-color: rgb(13, 153, 55);
 }
 /* this is where Tiffany style card ends*/
 
-
-
 /* this is where Claudio style card starts */
-.claudio-box{
-    margin: 2em auto;
-    background-color: rgb(226, 226, 40);
-    border-radius: 3em;
-    padding: 2em;
-    max-width: 400px;
+.claudio-box {
+  margin: 2em auto;
+  background-color: rgb(226, 226, 40);
+  border-radius: 3em;
+  padding: 2em;
+  max-width: 400px;
 }
-.claudio-box .img-box-c{
-    max-height: 500px;
-    height: 20em;
-    background-image: url("images/Computer1.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 1.3em
-}
-
-.claudio-box p{
-    margin: .8em 0;
-    color: rgba(11, 99, 80, 0.699);
-    font-family: 'Oooh Baby', cursive;
-    font-size: 1.2em;
+.claudio-box .img-box-c {
+  max-height: 500px;
+  height: 20em;
+  background-image: url("images/Computer1.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.3em;
 }
 
-.claudio-box h1{
-    margin: .8em 0;
-    color: rgb(73, 80, 78);
+.claudio-box p {
+  margin: 0.8em 0;
+  color: rgba(11, 99, 80, 0.699);
+  font-family: "Oooh Baby", cursive;
+  font-size: 1.2em;
 }
-.claudio-btn{
-    background-color: rgb(68, 66, 67);
-    font-size: 1em;
-    color: rgb(255, 255, 255);
-    border: none;
-    padding: 1em 4em;
-    cursor: pointer;
-    border-radius: 3em;
+
+.claudio-box h1 {
+  margin: 0.8em 0;
+  color: rgb(73, 80, 78);
 }
-.claudio-btn:hover{
-    background-color: rgb(0, 0, 0);
+.claudio-btn {
+  background-color: rgb(68, 66, 67);
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 1em 4em;
+  cursor: pointer;
+  border-radius: 3em;
+}
+.claudio-btn:hover {
+  background-color: rgb(0, 0, 0);
 }
 /* this is Claudio style card ends */
 
 /* this is where Jeremy style card starts*/
-.jeremy-box{
-    max-width: 400px;
-    margin: 2em auto;
-    background-color: #222629;
-    border-radius: 3em;
-    padding: 2em;
+
+.jeremy-box {
+  max-width: 400px;
+  margin: 2em auto;
+  background-color: #222629;
+  border-radius: 3em;
+  padding: 2em;
 }
-#jeremy-id{
-    background-color: blueviolet;
+#jeremy-id {
+  background-color: blueviolet;
 }
-.jeremy-box .img-box{
-    max-height: 500px;
-    height: 20em;
-    background-image: url("images/jeremy_photo-.png");
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 1.3em;
+.jeremy-box .img-box {
+  max-height: 500px;
+  height: 20em;
+  background-image: url("images/jeremy_photo-.png");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.3em;
 }
-.jeremy-box .img-box:hover{
-    transform: scale(1.01);
-    
+.jeremy-box .img-box:hover {
+  transform: scale(1.01);
 }
-.jeremy-box p{
-    margin: .9em 0 1.5em;
-    color: #86C232;
-    font-family: 'Poppins';
-    font-size: .8em;
-    font-weight: 300;
-    
+.jeremy-box p {
+  margin: 0.9em 0 1.5em;
+  color: #86c232;
+  font-family: "Poppins";
+  font-size: 0.8em;
+  font-weight: 300;
 }
-.jeremy-box p:nth-of-type(2){
-    margin: .8em 0;
-    color: #ffffffde;
-    font-family: 'Poppins';
-    font-size: 1em;
-    font-weight: 300;
-    
+.jeremy-box p:nth-of-type(2) {
+  margin: 0.8em 0;
+  color: #ffffffde;
+  font-family: "Poppins";
+  font-size: 1em;
+  font-weight: 300;
 }
-.jeremy-box h1{
-    margin: .3em 0 -0.7em;
-    color: #ffffffde;
-    font-weight: 200;
+.jeremy-box h1 {
+  margin: 0.3em 0 -0.7em;
+  color: #ffffffde;
+  font-weight: 200;
 }
-.jeremy-btn{
-    background-color: #86C232;
-    font-size: 1em;
-    color: #ffffffde;
-    border: none;
-    padding: 1em 4em;
-    cursor: pointer;
-    border-radius: 3em;
-    margin: 1em 0 -0.1em;
+.jeremy-btn {
+  background-color: #86c232;
+  font-size: 1em;
+  color: #ffffffde;
+  border: none;
+  padding: 1em 4em;
+  cursor: pointer;
+  border-radius: 3em;
+  margin: 1em 0 -0.1em;
 }
-.jeremy-btn:hover{
-    background-color: #FFFFFF;
-    color: #86C232;
-    font-weight: 400;
+.jeremy-btn:hover {
+  background-color: #ffffff;
+  color: #86c232;
+  font-weight: 400;
 }
 /* this is where Jeremy style card ends*/
 
+/* this is where yetnayet style card starts*/
+.yetnayet-box {
+  max-width: 400px;
+  margin: 2em auto;
+  background-color: rgba(96, 184, 196, 0.575);
+  border-radius: 3em;
+  padding: 2em;
+}
+#yetnayet-id {
+  background-color: rgb(176, 190, 204);
+}
+.yetnayet-box .img-box {
+  max-height: 500px;
+  height: 20em;
+  background-image: url("images/yeti.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.3em;
+}
+.yetnayet-box img {
+  max-height: 20rem;
+  height: 100%;
+  width: 100%;
+  object-position: bottom;
+  object-fit: cover;
+  transition: all 0.2s ease-out;
+}
+.yetnayet-box img:hover {
+  transform: scale(1.2);
+}
+.yetnayet-box p {
+  margin: 0.8em 0;
+  color: rgb(46, 41, 41);
+  font-family: "Oooh Baby", cursive;
+  font-size: 1.6em;
+}
 
+.yetnayet-box h1 {
+  margin: 0.8em 0;
+  color: rgb(73, 80, 78);
+}
+.yetnayet-btn {
+  background-color: rgb(14, 108, 148);
+  font-size: 1em;
+  color: rgb(44, 41, 41);
+  border: none;
+  padding: 1em 4em;
+  cursor: pointer;
+  border-radius: 3em;
+}
+.yetnayet-btn:hover {
+  background-color: rgb(11, 57, 77);
+}
+/* this is where yetnayet style card ends*/
 
 /* Test for four images scaling to two */
-.img-container{
-    height: 600px;
-    border: 3px solid black;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
+.img-container {
+  height: 600px;
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
-.column{
-    height: 200px;
-    width: 200px;
-    flex: 25%;
+.column {
+  height: 200px;
+  width: 200px;
+  flex: 25%;
 }
-
 
 @media screen and (max-width: 992px) {
-    .column{
-        flex: 50%;
-        align-items: center;
-        justify-content: center;
-    }    
+  .column {
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 600px) {
-    .column{
-        flex-direction: column;
-    }    
+  .column {
+    flex-direction: column;
+  }
 }
-#img1{
-    background: rgb(200, 200, 200);
+#img1 {
+  background: rgb(200, 200, 200);
 }
-#img2{
-    background: rgb(251, 251, 251);
+#img2 {
+  background: rgb(251, 251, 251);
 }
-#img3{
-    background: rgb(255, 255, 255);
+#img3 {
+  background: rgb(255, 255, 255);
 }
-#img4{
-    background: rgb(91, 91, 91);
+#img4 {
+  background: rgb(91, 91, 91);
 }
