@@ -453,6 +453,60 @@ header .gen-logo {
 }
 /* this is where yetnayet style card ends*/
 
+.Manny-box{
+  max-width: 400px;
+  margin: 2em auto;
+  background-color: rgb(210, 207, 249);
+  border-radius: 3em;
+  padding: 2em;
+}
+#Manny-id{
+  background-color: rgb(179, 113, 240);
+}
+.Manny-box .img-box{
+  max-height: 500px;
+  height: 20em;
+  background-image : url("images/Tech.jfif"); 
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.3em;
+}
+.Manny-box img{
+  max-height: 20rem;
+  height: 100%;
+  width: 100%;
+  object-position: bottom;
+  object-fit: cover;
+  transition: all 0.2s ease-out;
+}
+.Manny-box img:hover{
+  transform: scale(1.2);
+}
+.Manny-box p{
+  margin: .8em 0;
+  color: rgb(96, 96, 96);
+  font-family: 'Oooh Baby', cursive;
+  font-size: 1.2em;
+}
+
+.Manny-box h1{
+  margin: .8em 0;
+  color: rgb(73, 80, 78);
+}
+.Manny-btn{
+  background-color: rgb(14, 159, 221);
+  font-size: 1em;
+  color: white;
+  border: none;
+  padding: 1em 4em;
+  cursor: pointer;
+  border-radius: 3em;
+}
+.Manny-btn:hover{
+  background-color: rgb(11, 57, 77);
+}
+/* this is where Manny style card ends*/
 /* Test for four images scaling to two */
 .img-container {
   height: 600px;
