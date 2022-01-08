@@ -1,7 +1,6 @@
 # StudentSite
 
-This site is a practice created by Generation students 
-
+This site is a practice created by Generation students
 
 The first practice we will do together is to add your name in this file and merge
 
@@ -23,15 +22,13 @@ step 8: Merge your pull request
 
 Stop 9 Don't delete your branch
 
-
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                        
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 DEVELOPED BY:
 
-
-Manny Dado - Joined Dec 24 2021
+Ivan Rodriguez - Joined Dec 23 2021
 
 Madona Abbott - Dec 23 2021
 
@@ -52,3 +49,9 @@ Amanda Smithlin - Dec 29, 2021
 Tanya Mann - Dec 30 2021
 
 Camry Leon January 3 2022
+
+Rousse Bidon - Jan 3, 2022
+
+yetnayet kelekele - Jan 4, 2022
+
+Manny Dado - Joined Dec 24 2021
