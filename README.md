@@ -55,6 +55,8 @@ Christopher Foose - January 10, 2022
 
 Claudio Asuncion - December 30, 2021 
 
+Rita Edward  - January 11, 2022
+
 =====================================================
 AFTER ADDING YOUR NAME ABOVE
 =====================================================
