@@ -53,6 +53,8 @@ Manny Dado - Joined Dec 24 2021
 
 Christopher Foose - January 10, 2022
 
+Claudio Asuncion - December 30, 2021 
+
 =====================================================
 AFTER ADDING YOUR NAME ABOVE
 =====================================================
