@@ -55,3 +55,5 @@ Rousse Bidon - Jan 3, 2022
 yetnayet kelekele - Jan 4, 2022
 
 Manny Dado - Joined Dec 24 2021
+
+Christopher Foose - January 10, 2022
