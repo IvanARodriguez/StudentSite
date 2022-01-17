@@ -1,4 +1,4 @@
-# StudentSite
+# StudentSite for Generation Student
 
 This site is a practice created by Generation students
 
