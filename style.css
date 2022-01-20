@@ -56,7 +56,7 @@ header .gen-logo {
   padding: 2em;
 }
 #ivan-id {
-  background-color: blueviolet;
+  background-color: #8a2be2;
 }
 .ivan-box .img-box {
   max-height: 500px;
@@ -395,16 +395,19 @@ header .gen-logo {
   font-weight: 400;
 }
 /* this is where Jeremy style card ends*/
+
 /* this is where Rousse style card starts*/
 .rousse-box{
   max-width: 400px;
   margin: 2em auto;
-  background-color: rgb(207, 237, 249);
+  background-color: rgb(241, 205, 231);
   border-radius: 3em;
   padding: 2em;
 }
 #rousse-id{
-  background-color: blueviolet;
+  background-color: #a159e6;
+  ;
+  text-align: center;
 }
 .rousse-box .img-box{
   max-height: 500px;
@@ -429,22 +432,25 @@ header .gen-logo {
 .rousse-box p{
   margin: .8em 0;
   color: rgb(96, 96, 96);
-  font-family: 'Oooh Baby', cursive;
+  font-family: "Helvetica";
   font-size: 1.2em;
+  text-align: center;
 }
 
 .rousse-box h1{
   margin: .8em 0;
   color: rgb(73, 80, 78);
+  text-align: center;
 }
 .rousse-btn{
-  background-color: rgb(14, 108, 148);
+  background-color: rgb(131, 26, 117);
   font-size: 1em;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 1em 4em;
   cursor: pointer;
   border-radius: 3em;
+  text-align: center;
 }
 .rousse-btn:hover{
   background-color: rgb(11, 57, 77);
